@@ -29,9 +29,9 @@ or files containing XML data.
 In PECL status of this extension is: %{_status}.
 
 %description -l pl
-To rozszerzenie obudowuje API xmlWriter z libxml. Reprezentuje 
-obs³ugê zapisu dostarczaj±c± nie cachowanych metod generowania
-strumieni lub plików zawieraj±cych dane XML.
+To rozszerzenie obudowuje API xmlWriter z libxml. Reprezentuje obs³ugê
+zapisu dostarczaj±c± nie cachowanych metod generowania strumieni lub
+plików zawieraj±cych dane XML.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
@@ -69,5 +69,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/conf.d/%{_modname}.ini
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/conf.d/%{_modname}.ini
 %attr(755,root,root) %{extensionsdir}/%{_modname}.so
