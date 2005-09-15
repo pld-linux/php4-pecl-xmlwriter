@@ -7,7 +7,7 @@ Summary:	%{_modname} - provides fast, non-cached, forward-only means to write XM
 Summary(pl):	%{_modname} - szybka, nie cachowana metoda zapisu danych w formacie XML
 Name:		php4-pecl-%{_modname}
 Version:	2.0.0
-Release:	2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
