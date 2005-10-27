@@ -7,7 +7,7 @@ Summary:	%{_modname} - provides fast, non-cached, forward-only means to write XM
 Summary(pl):	%{_modname} - szybka, nie cachowana metoda zapisu danych w formacie XML
 Name:		php4-pecl-%{_modname}
 Version:	2.0.0
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
@@ -15,7 +15,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 URL:		http://pecl.php.net/package/xmlwriter/
 BuildRequires:	libxml2-devel
 BuildRequires:	php4-devel >= 3:4.3.0
-BuildRequires:	rpmbuild(macros) >= 1.238
+BuildRequires:	rpmbuild(macros) >= 1.248
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
 Obsoletes:	php-pear-%{_modname}
