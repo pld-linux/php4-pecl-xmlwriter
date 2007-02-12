@@ -4,7 +4,7 @@
 %define		extensionsdir	%{_libdir}/php4
 
 Summary:	%{_modname} - provides fast, non-cached, forward-only means to write XML data
-Summary(pl):	%{_modname} - szybka, nie cachowana metoda zapisu danych w formacie XML
+Summary(pl.UTF-8):   %{_modname} - szybka, nie cachowana metoda zapisu danych w formacie XML
 Name:		php4-pecl-%{_modname}
 Version:	2.0.0
 Release:	4
@@ -28,10 +28,10 @@ or files containing XML data.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-To rozszerzenie obudowuje API xmlWriter z libxml. Reprezentuje obs³ugê
-zapisu dostarczaj±c± nie cachowanych metod generowania strumieni lub
-plików zawieraj±cych dane XML.
+%description -l pl.UTF-8
+To rozszerzenie obudowuje API xmlWriter z libxml. Reprezentuje obsÅ‚ugÄ™
+zapisu dostarczajÄ…cÄ… nie cachowanych metod generowania strumieni lub
+plikÃ³w zawierajÄ…cych dane XML.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
