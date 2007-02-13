@@ -4,7 +4,7 @@
 %define		extensionsdir	%{_libdir}/php4
 
 Summary:	%{_modname} - provides fast, non-cached, forward-only means to write XML data
-Summary(pl.UTF-8):   %{_modname} - szybka, nie cachowana metoda zapisu danych w formacie XML
+Summary(pl.UTF-8):	%{_modname} - szybka, nie cachowana metoda zapisu danych w formacie XML
 Name:		php4-pecl-%{_modname}
 Version:	2.0.0
 Release:	4
